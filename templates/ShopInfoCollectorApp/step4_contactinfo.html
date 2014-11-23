@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Contact Info</title>
+</head>
+<body>
+    <h1>Contact Info</h1>
+
+    {% if form.errors %}
+        <p style="color: red;">
+            Please correct the error{{ form.errors|pluralize }} below.
+        </p>
+    {% endif %}
+
+    <form action="" method="post">
+        <table>
+            {{ form.as_table }}
+        </table>
+        <input type="submit" value="添加联系人">
+        <input type="submit" value="下一步">
+    </form>
+</body>
+</html>

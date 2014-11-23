@@ -1,0 +1,56 @@
+#!wing
+#!version=5.0
+##################################################################
+# Wing IDE project file                                          #
+##################################################################
+[project attributes]
+debug.launch-configs = (1,
+                        {'launch-gavXbXYxRuPQxI0E': ({'shared': False},
+        {'buildcmd': ('project',
+                      None),
+         'env': ('project',
+                 [u'']),
+         'name': u'Launch manage.py',
+         'pyexec': ('project',
+                    u''),
+         'pypath': ('project',
+                    ''),
+         'pyrunargs': ('project',
+                       '-u'),
+         'runargs': u'runserver --noreload 8000',
+         'rundir': ('project',
+                    u'')}),
+                         'launch-x6cSlqcCeURZoSnf': ({},
+        {'buildcmd': ('project',
+                      None),
+         'env': ('project',
+                 [u'']),
+         'name': 'current',
+         'pyexec': ('project',
+                    u''),
+         'pypath': ('project',
+                    ''),
+         'pyrunargs': ('project',
+                       '-u'),
+         'runargs': u'',
+         'rundir': ('project',
+                    u'')})})
+debug.named-entry-points = (1,
+                            {'manage.py': ({},
+        {'auto-show': False,
+         'launch-id': ('custom',
+                       (u'',
+                        'launch-gavXbXYxRuPQxI0E')),
+         'loc': loc('manage.py')})})
+proj.directory-list = [{'dirloc': loc('.'),
+                        'excludes': (),
+                        'filter': u'*',
+                        'include_hidden': False,
+                        'recursive': True,
+                        'watch_for_changes': True}]
+proj.file-type = 'shared'
+proj.launch-config = {loc('productapp/tests.py'): ('custom',
+        (u'',
+         'launch-x6cSlqcCeURZoSnf'))}
+proj.main-file = loc('manage.py')
+testing.test-framework = {None: ':internal djangotest'}
