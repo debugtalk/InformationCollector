@@ -1,0 +1,54 @@
+<head>
+<h2>录入信息确认</h2>
+</head>
+<body>
+  <table>
+    <tr>
+      <th>商家名称: </th><th>{{tempSessionDict.ShopName}}</th>
+    </tr>
+    <tr>
+      <th>商家详细地址: </th><th>{{tempSessionDict.ShopDetailAddress}}</th>
+    </tr>
+    <tr>
+      <th>商家类型: </th><th>{{tempSessionDict.ShopType}}</th>
+    </tr>
+  </table>
+
+  <p>Mac地址: </p>
+  <p>
+    {% for macaddress in tempSessionDict.MacAddressList %}
+      <li>{{ macaddress }}</li>
+    {% endfor %}
+  </p>
+
+  <table>
+    <p>商家联系人信息: </p>
+    {% for contactinfo in tempSessionDict.ContactInfoList %}
+      <tr><th>联系人姓名</th><th>{{ contactinfo.Name }}</th></tr>
+      <tr><th>联系人职务</th><th>{{ contactinfo.Duty }}</th></tr>
+      <tr><th>联系人电话</th><th>{{ contactinfo.Phone }}</th></tr>
+      <tr><th>电子邮箱</th><th>{{ contactinfo.Email }}</th></tr>
+    {% endfor %}
+    <tr>
+      <th>是否连锁: </th><th>{{tempSessionDict.IsChainShop}}</th>
+    </tr>
+  </table>
+    
+  {% if tempSessionDict.IsChainShop %}
+    <table>
+      <p>连锁店信息: </p>
+      <tr><th>连锁店名称</th><th>{{ tempSessionDict.ChainStoreInfo.Name }}</th></tr>
+      <tr><th>连锁店地址</th><th>{{ tempSessionDict.ChainStoreInfo.Address }}</th></tr>
+      <tr><th>联系人姓名</th><th>{{ tempSessionDict.ChainStoreInfo.ContactName }}</th></tr>
+      <tr><th>联系人电话</th><th>{{ tempSessionDict.ChainStoreInfo.ContactPhone }}</th></tr>
+    </table>
+  {% endif %}
+
+  <form action="" method="post">
+    <input type="submit" value="重填" name="reset_all">
+    <input type="submit" value="保存" name="conform_and_save">
+  </form>
+</body>
+
+
+

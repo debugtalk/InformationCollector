@@ -5,7 +5,7 @@ from django.forms import ModelForm
 
 
 class BasicInfoForm(ModelForm):
-    '''RecordPage2: ShopName, ShopType, ShopDetailAddress, IsChainShop'''
+    '''RecordPage1: ShopName, ShopType, ShopDetailAddress, IsChainShop'''
     class Meta:
         model = ShopInfo
         fields = ['ShopName', 'ShopType', 'ShopDetailAddress', 'IsChainShop']
@@ -14,16 +14,19 @@ class MacAddressInfoForm(ModelForm):
     '''RecordPage3: MacAddressList(one or many)'''
     class Meta:
         model = MacAddressInfo
+        exclude = []
 
 class ContactInfoForm(ModelForm):
     '''RecordPage4: ContactInfoList(one or many)'''
     class Meta:
         model = ContactInfo
+        exclude = []
 
 class ChainShopInfoForm(ModelForm):
     '''RecordPage5(if IsChainShop): ChainStoreInfo'''
     class Meta:
         model = ChainStoreInfo
+        exclude = []
 
 # 商家信息的录入分多个页面
 # Todo: merge step1 and step2

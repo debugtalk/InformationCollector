@@ -12,3 +12,8 @@ urlpatterns = patterns('',
 urlpatterns += patterns('',
     url(r'^record/', include('ShopInfoCollectorApp.urls', namespace='ShopInfoCollectorApp'), name='ShopInfoCollectorApp'),
 )
+
+from SalesNetworkManager.settings import STATIC_PATH
+urlpatterns += patterns('',
+    url(r'^site_media/(?P<path>.*)$', 'django.views.static.serve', {'document_root':STATIC_PATH}),
+)

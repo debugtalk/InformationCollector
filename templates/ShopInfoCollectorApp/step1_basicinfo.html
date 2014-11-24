@@ -1,0 +1,36 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Demo</title>
+  <h2>第一步：商家基本信息</h2>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src= "/site_media/js/cascade-dropbox.js"></script>
+  <script>
+  $(function(){
+    cascade_dropbox('main');
+  })
+  </script>
+</head>
+
+<body>
+  <form action="" method="post">
+    <table>
+      <tr>
+        <th>省份：</th>
+        <th><select class='province'><option value='province'>--请选择--</option></select></th>
+      </tr>
+      <tr>
+        <th>城市：</th>
+        <th><select class="city"><option value='city'>--请选择--</option></select></th>
+      </tr>
+      <tr>
+        <th>区县：</th>
+        <th><select class="country"><option value='country'>--请选择--</option></select></th>
+      </tr>
+    </table>
+    <table>
+      {{ form.as_table }}
+    </table>
+    <input type="submit" value="下一步">
+  </form>
+</body>

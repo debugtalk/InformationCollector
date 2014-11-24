@@ -100,3 +100,5 @@ STATICFILES_DIRS = (
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'templates'),
 )
+
+STATIC_PATH= os.path.join(BASE_DIR, 'templates/site_media')

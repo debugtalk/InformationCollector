@@ -2,14 +2,14 @@ function cascade_dropbox(eleId){
   var warp = $('#'+eleId);
   var data = null;
   $.ajax({
-    url: 'templates/js/DistrictData.xml',
+    url: 'DistrictData.xml',
     type: 'post',
     dataType: 'xml',
     success:function(result){
       data = result;
       var provinces = $(data).find('province');
       for(var i=0;i<provinces.length;i++){
-        var newOption = $('<option>'+provinces.eq(i).attr('name')+'</option>')
+        var newOption = $('<option value='+provinces.eq(i).attr('name')+'>'+provinces.eq(i).attr('name')+'</option>')
         warp.find('.province').append(newOption);
       }
     }
@@ -44,7 +44,7 @@ function cascade_dropbox(eleId){
     warp.find('.country').on('change',function(event){
       var pro = warp.find('.province').val();
       var city = warp.find('.city').val();
-      $('#show').find('input').val(pro+'-'+city+'-'+this.value) 
+      $('#show').find('input').val(pro+'-'+city+'-'+this.value)
       event.preventDefault();
     });
   })

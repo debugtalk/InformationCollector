@@ -5,7 +5,1210 @@
 ##################################################################
 [user attributes]
 cache.last-mime-type = {loc('unknown:Django Validate'): 'text/plain'}
-debug.err-values = {loc('manage.py'): {}}
+debug.breakpoints = {loc('ShopInfoCollectorApp/views.py'): {28: (0,
+        None,
+        1,
+        0),
+        63: (0,
+             None,
+             1,
+             0),
+        78: (0,
+             None,
+             1,
+             0)}}
+debug.err-values = {loc('manage.py'): {'stack[11].locals.form.fields.__dict_'\
+                                       '_': (-2,
+        None,
+        None,
+        'error',
+        None,
+        1,
+        None,
+        1,
+        '<error handling value>',
+        "Runtime failure details:\nException: <type 'exceptions.RuntimeError"\
+        "'>\nValue = maximum recursion depth exceeded while calling a Python"\
+        " object\nTraceback (innermost last):\n  File \"2.7/src/debug/tserve"\
+        "r/dbgutils.pyc\", line 2651, in _AddNameSpaceEntries\n\n  File \"2."\
+        "7/src/debug/tserver/dbgutils.pyc\", line 2400, in _BuildValueWrappe"\
+        "r\n\n  File \"2.7/src/debug/tserver/dbgutils.pyc\", line 2028, in _"\
+        "GetShortValue\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", l"\
+        "ine 757, in GetStr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc"\
+        "\", line 796, in GetRepr\n\n  File \"2.7/src/debug/tserver/dbginspe"\
+        "ct.pyc\", line 1001, in BuildRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1076, in _TryAppendBuiltinRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1134, in _A"\
+        "ppendBuiltinDictRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/d"\
+        "bginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _A"\
+        "ppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBui"\
+        "ltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1"\
+        "152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect"\
+        ".pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRep"\
+        "r\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in"\
+        " _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src"\
+        "/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppen"\
+        "dBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbgins"\
+        "pect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSe"\
+        "qRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019"\
+        ", in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7"\
+        "/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryA"\
+        "ppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _Appe"\
+        "ndSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _T"\
+        "ryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.py"\
+        "c\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _A"\
+        "ppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, i"\
+        "n _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, i"\
+        "n _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _Appe"\
+        "ndRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 108"\
+        "9, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuilt"\
+        "inRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 115"\
+        "2, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/d"\
+        "bginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _A"\
+        "ppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBui"\
+        "ltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1"\
+        "152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect"\
+        ".pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRep"\
+        "r\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in"\
+        " _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src"\
+        "/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppen"\
+        "dBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbgins"\
+        "pect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSe"\
+        "qRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019"\
+        ", in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7"\
+        "/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryA"\
+        "ppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _Appe"\
+        "ndSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _T"\
+        "ryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.py"\
+        "c\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _A"\
+        "ppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, i"\
+        "n _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, i"\
+        "n _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _Appe"\
+        "ndRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 108"\
+        "9, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuilt"\
+        "inRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 115"\
+        "2, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/d"\
+        "bginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _A"\
+        "ppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBui"\
+        "ltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1"\
+        "152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect"\
+        ".pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRep"\
+        "r\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in"\
+        " _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src"\
+        "/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppen"\
+        "dBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbgins"\
+        "pect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSe"\
+        "qRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019"\
+        ", in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7"\
+        "/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryA"\
+        "ppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _Appe"\
+        "ndSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _T"\
+        "ryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.py"\
+        "c\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _A"\
+        "ppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, i"\
+        "n _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, i"\
+        "n _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _Appe"\
+        "ndRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 108"\
+        "9, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuilt"\
+        "inRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 115"\
+        "2, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/d"\
+        "bginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _A"\
+        "ppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBui"\
+        "ltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1"\
+        "152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect"\
+        ".pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRep"\
+        "r\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in"\
+        " _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src"\
+        "/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppen"\
+        "dBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbgins"\
+        "pect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSe"\
+        "qRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019"\
+        ", in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7"\
+        "/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryA"\
+        "ppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _Appe"\
+        "ndSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _T"\
+        "ryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.py"\
+        "c\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _A"\
+        "ppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, i"\
+        "n _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, i"\
+        "n _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _Appe"\
+        "ndRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 108"\
+        "9, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuilt"\
+        "inRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 115"\
+        "2, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/d"\
+        "bginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _A"\
+        "ppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBui"\
+        "ltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1"\
+        "152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect"\
+        ".pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRep"\
+        "r\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in"\
+        " _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src"\
+        "/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppen"\
+        "dBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbgins"\
+        "pect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSe"\
+        "qRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019"\
+        ", in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7"\
+        "/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryA"\
+        "ppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _Appe"\
+        "ndSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _T"\
+        "ryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.py"\
+        "c\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _A"\
+        "ppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, i"\
+        "n _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, i"\
+        "n _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _Appe"\
+        "ndRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 108"\
+        "9, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuilt"\
+        "inRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 115"\
+        "2, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/d"\
+        "bginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _A"\
+        "ppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBui"\
+        "ltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1"\
+        "152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect"\
+        ".pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRep"\
+        "r\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in"\
+        " _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src"\
+        "/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppen"\
+        "dBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbgins"\
+        "pect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSe"\
+        "qRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019"\
+        ", in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7"\
+        "/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryA"\
+        "ppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _Appe"\
+        "ndSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _T"\
+        "ryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.py"\
+        "c\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _A"\
+        "ppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, i"\
+        "n _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, i"\
+        "n _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _Appe"\
+        "ndRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 108"\
+        "9, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuilt"\
+        "inRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 115"\
+        "2, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/d"\
+        "bginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _A"\
+        "ppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBui"\
+        "ltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1"\
+        "152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect"\
+        ".pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRep"\
+        "r\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in"\
+        " _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src"\
+        "/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppen"\
+        "dBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbgins"\
+        "pect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSe"\
+        "qRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019"\
+        ", in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7"\
+        "/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryA"\
+        "ppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _Appe"\
+        "ndSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _T"\
+        "ryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.py"\
+        "c\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _A"\
+        "ppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, i"\
+        "n _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, i"\
+        "n _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _Appe"\
+        "ndRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 108"\
+        "9, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuilt"\
+        "inRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 115"\
+        "2, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/d"\
+        "bginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _A"\
+        "ppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBui"\
+        "ltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1"\
+        "152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect"\
+        ".pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRep"\
+        "r\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in"\
+        " _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src"\
+        "/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppen"\
+        "dBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbgins"\
+        "pect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSe"\
+        "qRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019"\
+        ", in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7"\
+        "/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryA"\
+        "ppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _Appe"\
+        "ndSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _T"\
+        "ryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.py"\
+        "c\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _A"\
+        "ppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, i"\
+        "n _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, i"\
+        "n _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _Appe"\
+        "ndRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 108"\
+        "9, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuilt"\
+        "inRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 115"\
+        "2, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/d"\
+        "bginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _A"\
+        "ppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBui"\
+        "ltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1"\
+        "152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect"\
+        ".pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRep"\
+        "r\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in"\
+        " _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src"\
+        "/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppen"\
+        "dBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbgins"\
+        "pect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSe"\
+        "qRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019"\
+        ", in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7"\
+        "/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryA"\
+        "ppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _Appe"\
+        "ndSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _T"\
+        "ryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.py"\
+        "c\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _A"\
+        "ppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, i"\
+        "n _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, i"\
+        "n _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _Appe"\
+        "ndRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 108"\
+        "9, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuilt"\
+        "inRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 115"\
+        "2, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/d"\
+        "bginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _A"\
+        "ppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBui"\
+        "ltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1"\
+        "152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect"\
+        ".pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRep"\
+        "r\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in"\
+        " _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src"\
+        "/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppen"\
+        "dBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbgins"\
+        "pect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSe"\
+        "qRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019"\
+        ", in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7"\
+        "/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryA"\
+        "ppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _Appe"\
+        "ndSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _T"\
+        "ryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.py"\
+        "c\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _A"\
+        "ppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, i"\
+        "n _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, i"\
+        "n _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _Appe"\
+        "ndRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 108"\
+        "9, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuilt"\
+        "inRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 115"\
+        "2, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/d"\
+        "bginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _A"\
+        "ppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBui"\
+        "ltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1"\
+        "152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect"\
+        ".pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRep"\
+        "r\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in"\
+        " _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src"\
+        "/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppen"\
+        "dBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbgins"\
+        "pect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSe"\
+        "qRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019"\
+        ", in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7"\
+        "/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryA"\
+        "ppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _Appe"\
+        "ndSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _T"\
+        "ryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.py"\
+        "c\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _A"\
+        "ppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, i"\
+        "n _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, i"\
+        "n _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _Appe"\
+        "ndRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 108"\
+        "9, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuilt"\
+        "inRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 115"\
+        "2, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/d"\
+        "bginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _A"\
+        "ppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBui"\
+        "ltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1"\
+        "152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect"\
+        ".pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRep"\
+        "r\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in"\
+        " _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src"\
+        "/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppen"\
+        "dBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbgins"\
+        "pect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSe"\
+        "qRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019"\
+        ", in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7"\
+        "/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryA"\
+        "ppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _Appe"\
+        "ndSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _T"\
+        "ryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.py"\
+        "c\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _A"\
+        "ppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, i"\
+        "n _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, i"\
+        "n _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _Appe"\
+        "ndRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 108"\
+        "9, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuilt"\
+        "inRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 115"\
+        "2, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/d"\
+        "bginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _A"\
+        "ppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBui"\
+        "ltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1"\
+        "152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect"\
+        ".pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRep"\
+        "r\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in"\
+        " _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src"\
+        "/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppen"\
+        "dBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbgins"\
+        "pect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSe"\
+        "qRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019"\
+        ", in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7"\
+        "/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryA"\
+        "ppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _Appe"\
+        "ndSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _T"\
+        "ryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.py"\
+        "c\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _A"\
+        "ppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, i"\
+        "n _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, i"\
+        "n _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _Appe"\
+        "ndRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 108"\
+        "9, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuilt"\
+        "inRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 115"\
+        "2, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/d"\
+        "bginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _A"\
+        "ppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBui"\
+        "ltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1"\
+        "152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect"\
+        ".pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRep"\
+        "r\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in"\
+        " _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src"\
+        "/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppen"\
+        "dBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbgins"\
+        "pect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSe"\
+        "qRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019"\
+        ", in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7"\
+        "/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryA"\
+        "ppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _Appe"\
+        "ndSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _T"\
+        "ryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.py"\
+        "c\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _A"\
+        "ppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, i"\
+        "n _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, i"\
+        "n _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _Appe"\
+        "ndRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 108"\
+        "9, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuilt"\
+        "inRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 115"\
+        "2, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/d"\
+        "bginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _A"\
+        "ppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBui"\
+        "ltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1"\
+        "152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect"\
+        ".pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRep"\
+        "r\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in"\
+        " _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src"\
+        "/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppen"\
+        "dBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbgins"\
+        "pect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSe"\
+        "qRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019"\
+        ", in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7"\
+        "/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryA"\
+        "ppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _Appe"\
+        "ndSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _T"\
+        "ryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.py"\
+        "c\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _A"\
+        "ppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, i"\
+        "n _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, i"\
+        "n _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _Appe"\
+        "ndRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 108"\
+        "9, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuilt"\
+        "inRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 115"\
+        "2, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/d"\
+        "bginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _A"\
+        "ppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBui"\
+        "ltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1"\
+        "152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect"\
+        ".pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRep"\
+        "r\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in"\
+        " _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src"\
+        "/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppen"\
+        "dBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbgins"\
+        "pect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSe"\
+        "qRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019"\
+        ", in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7"\
+        "/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryA"\
+        "ppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _Appe"\
+        "ndSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _T"\
+        "ryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.py"\
+        "c\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _A"\
+        "ppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, i"\
+        "n _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspec"\
+        "t.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRe"\
+        "pr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, i"\
+        "n _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/sr"\
+        "c/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _Appe"\
+        "ndRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 108"\
+        "9, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbgin"\
+        "spect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuilt"\
+        "inRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 115"\
+        "2, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/d"\
+        "bginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2."\
+        "7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n"\
+        "\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in _A"\
+        "ppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/de"\
+        "bug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppendBui"\
+        "ltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1"\
+        "152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect"\
+        ".pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSeqRep"\
+        "r\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019, in"\
+        " _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver"\
+        "/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src"\
+        "/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryAppen"\
+        "dBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", li"\
+        "ne 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/dbgins"\
+        "pect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _AppendSe"\
+        "qRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1019"\
+        ", in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1089, in _TryAppendBuiltinRepr\n\n  File \"2.7/src/debug/tse"\
+        "rver/dbginspect.pyc\", line 1152, in _AppendSeqRepr\n\n  File \"2.7"\
+        "/src/debug/tserver/dbginspect.pyc\", line 1019, in _AppendRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1089, in _TryA"\
+        "ppendBuiltinRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\""\
+        ", line 1152, in _AppendSeqRepr\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 1019, in _AppendRepr\n\n  File \"2.7/src/debug"\
+        "/tserver/dbginspect.pyc\", line 1089, in _TryAppendBuiltinRepr\n\n "\
+        " File \"2.7/src/debug/tserver/dbginspect.pyc\", line 1152, in _Appe"\
+        "ndSeqRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line "\
+        "1015, in _AppendRepr\n\n  File \"2.7/src/debug/tserver/dbginspect.p"\
+        "yc\", line 946, in IsHugeValue\n\n  File \"2.7/src/debug/tserver/db"\
+        "ginspect.pyc\", line 728, in GetLen\n\n  File \"2.7/src/debug/tserv"\
+        "er/dbginspect.pyc\", line 891, in IsByteCodeImplemented\n\n  File \""\
+        "2.7/src/debug/tserver/dbginspect.pyc\", line 876, in deref\n\n  Fil"\
+        "e \"2.7/src/debug/tserver/dbginspect.pyc\", line 293, in GetAttr\n\n"\
+        "  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 262, in HasAt"\
+        "tr\n\n  File \"2.7/src/debug/tserver/dbginspect.pyc\", line 702, in"\
+        " CanProbeValue\n",
+        None,
+        0)}}
 debug.launch-configs = (1,
                         {'launch-9a6llvqqUeydgmdT': ({},
         {'buildcmd': ('project',
@@ -54,8 +1257,8 @@ debug.launch-configs = (1,
          'rundir': ('project',
                     u'')})})
 debug.recent-run-args = {loc('manage.py'): ['runserver --noreload 8000']}
-debug.var-col-widths = [0.3949579831932773,
-                        0.6050420168067228]
+debug.var-col-widths = [0.3939075630252101,
+                        0.60609243697479]
 edit.file-encoding = {loc('templates/ShopInfoCollectorApp/recording_verification.html'): ''\
         'UTF-8',
                       loc('templates/ShopInfoCollectorApp/step3_macaddress.html'): ''\
@@ -78,13 +1281,11 @@ guimgr.overall-gui-state = {'windowing-policy': 'combined-window',
                                0,
                                {'tree-state': {'file-sort-method': 'by name',
         'list-files-first': False,
-        'tree-states': {'deep': {'expanded-nodes': [(1,),
-        (2,),
-        (2,
-         2)],
-                                 'selected-nodes': [],
-                                 'top-node': (1,
-        6)}},
+        'tree-states': {'deep': {'expanded-nodes': [],
+                                 'selected-nodes': [(2,
+        1,
+        0)],
+                                 'top-node': (0,)}},
         'tree-style': 'deep'}}),
                               ('browser',
                                'tall',
@@ -108,9 +1309,9 @@ guimgr.overall-gui-state = {'windowing-policy': 'combined-window',
                                {})],
                  'primary_view_state': {'area': 'wide',
         'constraint': None,
-        'current_pages': [1],
+        'current_pages': [10],
         'notebook_display': 'normal',
-        'notebook_percent': 0.30000000000000004,
+        'notebook_percent': 0.5361842105263157,
         'override_title': None,
         'pagelist': [('debug-data',
                       'wide',
@@ -120,12 +1321,12 @@ guimgr.overall-gui-state = {'windowing-policy': 'combined-window',
                       'wide',
                       0,
                       {'attrib-starts': [],
-                       'first-line': 14,
+                       'first-line': 2,
                        'folded-linenos': [],
-                       'sel-line': 17,
-                       'sel-line-start': 1171,
-                       'selection_end': 1171,
-                       'selection_start': 1171}),
+                       'sel-line': 12,
+                       'sel-line-start': 639,
+                       'selection_end': 639,
+                       'selection_start': 639}),
                      ('debug-probe',
                       'wide',
                       1,
@@ -145,10 +1346,6 @@ guimgr.overall-gui-state = {'windowing-policy': 'combined-window',
                       'wide',
                       0,
                       {}),
-                     ('debug-modules',
-                      'wide',
-                      0,
-                      {}),
                      ('python-shell',
                       'wide',
                       1,
@@ -156,292 +1353,352 @@ guimgr.overall-gui-state = {'windowing-policy': 'combined-window',
         -1,
         -1),
                        'attrib-starts': [],
-                       'first-line': 274,
+                       'first-line': 271,
                        'folded-linenos': [],
                        'history': {},
                        'launch-id': None,
-                       'sel-line': 281,
-                       'sel-line-start': 23634,
-                       'selection_end': 23634,
-                       'selection_start': 23634}),
-                     ('bookmarks',
-                      'wide',
-                      0,
-                      {}),
+                       'sel-line': 273,
+                       'sel-line-start': 22271,
+                       'selection_end': 22317,
+                       'selection_start': 22317}),
                      ('messages',
                       'wide',
                       1,
                       {'current-domain': 0}),
-                     ('os-command',
-                      'wide',
-                      0,
-                      {}),
                      ('debug-exceptions',
                       'wide',
                       0,
+                      {}),
+                     ('interactive-search',
+                      'wide',
+                      0,
+                      {'fScope': {'fFileSetName': u'All Source Files',
+                                  'fLocation': None,
+                                  'fRecursive': True,
+                                  'fType': 'project-files'},
+                       'fSearchSpec': {'fEndPos': None,
+                                       'fIncludeLinenos': True,
+                                       'fInterpretBackslashes': False,
+                                       'fMatchCase': False,
+                                       'fOmitBinary': True,
+                                       'fRegexFlags': 46,
+                                       'fReplaceText': u'SalesNetworkManager',
+                                       'fReverse': False,
+                                       'fSearchText': u'option ',
+                                       'fStartPos': 0,
+                                       'fStyle': 'text',
+                                       'fWholeWords': False,
+                                       'fWrap': True},
+                       'fUIOptions': {'fAutoBackground': True,
+                                      'fFilePrefix': 'short-file',
+                                      'fFindAfterReplace': True,
+                                      'fInSelection': False,
+                                      'fIncremental': True,
+                                      'fReplaceOnDisk': False,
+                                      'fShowFirstMatch': False,
+                                      'fShowLineno': True,
+                                      'fShowReplaceWidgets': False},
+                       'replace-entry-expanded': False,
+                       'search-entry-expanded': False}),
+                     ('debug-breakpoints',
+                      'wide',
+                      0,
+                      {'tree-state': []}),
+                     ('bookmarks',
+                      'wide',
+                      0,
+                      {}),
+                     ('versioncontrol.git',
+                      'wide',
+                      0,
                       {})],
-        'primary_view_state': {'editor_states': ({'bookmarks': ([[loc('ShopInfoCollectorApp/views.py'),
-        {'attrib-starts': [('record_macaddress',
-                            18)],
-         'first-line': 9,
+        'primary_view_state': {'editor_states': ({'bookmarks': ([[loc('../../../../usr/lib/python2.7/importlib/__init__.py'),
+        {'attrib-starts': [('import_module',
+                            19)],
+         'first-line': 19,
          'folded-linenos': [],
-         'sel-line': 22,
-         'sel-line-start': 571,
-         'selection_end': 636,
-         'selection_start': 636},
-        1416763270.681951],
-        [loc('templates/ShopInfoCollectorApp/step2_basicinfo.html'),
-         {'attrib-starts': [],
-          'first-line': 0,
+         'sel-line': 37,
+         'sel-line-start': 1298,
+         'selection_end': 1298,
+         'selection_start': 1298},
+        1416841450.206112],
+        [loc('ShopInfoCollectorApp/views.py'),
+         {'attrib-starts': [('final_verification',
+                             72)],
+          'first-line': 61,
           'folded-linenos': [],
-          'sel-line': 0,
-          'sel-line-start': 0,
-          'selection_end': 58,
-          'selection_start': 0},
-         1416763273.542298],
-        [loc('templates/ShopInfoCollectorApp/step3_macaddress.html'),
+          'sel-line': 75,
+          'sel-line-start': 3213,
+          'selection_end': 3261,
+          'selection_start': 3261},
+         1416843718.090215],
+        [loc('templates/ShopInfoCollectorApp/step4_chainstoreinfo.html'),
          {'attrib-starts': [],
           'first-line': 0,
           'folded-linenos': [],
           'sel-line': 1,
-          'sel-line-start': 25,
-          'selection_end': 43,
-          'selection_start': 43},
-         1416763291.212735],
-        [loc('templates/ShopInfoCollectorApp/step2_basicinfo.html'),
-         {'attrib-starts': [],
-          'first-line': 0,
-          'folded-linenos': [],
-          'sel-line': 0,
-          'sel-line-start': 0,
-          'selection_end': 58,
-          'selection_start': 0},
-         1416763292.448243],
-        [loc('templates/ShopInfoCollectorApp/step3_macaddress.html'),
-         {'attrib-starts': [],
-          'first-line': 0,
-          'folded-linenos': [],
-          'sel-line': 1,
-          'sel-line-start': 25,
-          'selection_end': 43,
-          'selection_start': 43},
-         1416763293.857191],
-        [loc('templates/ShopInfoCollectorApp/step4_contactinfo.html'),
-         {'attrib-starts': [],
-          'first-line': 9,
-          'folded-linenos': [],
-          'sel-line': 13,
-          'sel-line-start': 246,
-          'selection_end': 459,
-          'selection_start': 246},
-         1416763307.938957],
-        [loc('templates/ShopInfoCollectorApp/step3_macaddress.html'),
-         {'attrib-starts': [],
-          'first-line': 0,
-          'folded-linenos': [],
-          'sel-line': 9,
-          'sel-line-start': 224,
-          'selection_end': 224,
-          'selection_start': 224},
-         1416763422.534354],
-        [loc('ShopInfoCollectorApp/forms.py'),
-         {'attrib-starts': [('ChainShopInfoForm',
-                             22)],
-          'first-line': 18,
-          'folded-linenos': [],
-          'sel-line': 22,
-          'sel-line-start': 592,
-          'selection_end': 615,
-          'selection_start': 598},
-         1416763431.362744],
+          'sel-line-start': 37,
+          'selection_end': 37,
+          'selection_start': 37},
+         1416843722.95844],
         [loc('ShopInfoCollectorApp/views.py'),
-         {'attrib-starts': [('record_chainstoreinfo',
-                             36)],
-          'first-line': 29,
+         {'attrib-starts': [('final_verification',
+                             72)],
+          'first-line': 61,
           'folded-linenos': [],
-          'sel-line': 36,
-          'sel-line-start': 1108,
-          'selection_end': 1133,
-          'selection_start': 1112},
-         1416763492.357283],
-        [loc('ShopInfoCollectorApp/urls.py'),
+          'sel-line': 75,
+          'sel-line-start': 3213,
+          'selection_end': 3261,
+          'selection_start': 3261},
+         1416843724.426437],
+        [loc('templates/ShopInfoCollectorApp/step3_contactinfo.html'),
          {'attrib-starts': [],
           'first-line': 0,
           'folded-linenos': [],
-          'sel-line': 6,
-          'sel-line-start': 261,
-          'selection_end': 282,
-          'selection_start': 272},
-         1416763495.993428],
+          'sel-line': 17,
+          'sel-line-start': 346,
+          'selection_end': 424,
+          'selection_start': 405},
+         1416843730.870389],
         [loc('ShopInfoCollectorApp/views.py'),
-         {'attrib-starts': [('record_chainstoreinfo',
-                             36)],
+         {'attrib-starts': [('final_verification',
+                             72)],
+          'first-line': 61,
+          'folded-linenos': [],
+          'sel-line': 75,
+          'sel-line-start': 3213,
+          'selection_end': 3261,
+          'selection_start': 3261},
+         1416843731.726486],
+        [loc('templates/ShopInfoCollectorApp/step2_macaddress.html'),
+         {'attrib-starts': [],
+          'first-line': 0,
+          'folded-linenos': [],
+          'sel-line': 11,
+          'sel-line-start': 179,
+          'selection_end': 259,
+          'selection_start': 236},
+         1416843733.138107],
+        [loc('ShopInfoCollectorApp/views.py'),
+         {'attrib-starts': [('final_verification',
+                             72)],
+          'first-line': 61,
+          'folded-linenos': [],
+          'sel-line': 75,
+          'sel-line-start': 3213,
+          'selection_end': 3261,
+          'selection_start': 3261},
+         1416843805.83334],
+        [loc('templates/ShopInfoCollectorApp/laststep_recording_verification.html'),
+         {'attrib-starts': [],
+          'first-line': 3,
+          'folded-linenos': [],
+          'sel-line': 28,
+          'sel-line-start': 678,
+          'selection_end': 683,
+          'selection_start': 683},
+         1416844313.466846],
+        [loc('ShopInfoCollectorApp/views.py'),
+         {'attrib-starts': [('final_verification',
+                             72)],
+          'first-line': 70,
+          'folded-linenos': [],
+          'sel-line': 75,
+          'sel-line-start': 3213,
+          'selection_end': 3213,
+          'selection_start': 3213},
+         1416844334.423958],
+        [loc('../../.virtualenvs/Django/local/lib/python2.7/site-packages/django/template/base.py'),
+         {'attrib-starts': [('FilterExpression',
+                             534),
+                            ('FilterExpression.__init__',
+                             548)],
+          'first-line': 582,
+          'folded-linenos': [],
+          'sel-line': 588,
+          'sel-line-start': 20354,
+          'selection_end': 20354,
+          'selection_start': 20354},
+         1416844496.398107],
+        [loc('ShopInfoCollectorApp/views.py'),
+         {'attrib-starts': [('final_verification',
+                             72)],
+          'first-line': 69,
+          'folded-linenos': [],
+          'sel-line': 73,
+          'sel-line-start': 3120,
+          'selection_end': 3120,
+          'selection_start': 3120},
+         1416844499.631551],
+        [loc('../../.virtualenvs/Django/local/lib/python2.7/site-packages/django/template/base.py'),
+         {'attrib-starts': [('Parser',
+                             244),
+                            ('Parser.invalid_block_tag',
+                             339)],
           'first-line': 26,
           'folded-linenos': [],
-          'sel-line': 36,
-          'sel-line-start': 1108,
-          'selection_end': 1133,
-          'selection_start': 1112},
-         1416763575.959153],
-        [loc('ShopInfoCollectorApp/urls.py'),
-         {'attrib-starts': [],
-          'first-line': 0,
+          'sel-line': 344,
+          'sel-line-start': 11946,
+          'selection_end': 11946,
+          'selection_start': 11946},
+         1416844515.166801],
+        [loc('ShopInfoCollectorApp/models.py'),
+         {'attrib-starts': [('ShopInfo',
+                             84)],
+          'first-line': 69,
           'folded-linenos': [],
-          'sel-line': 8,
-          'sel-line-start': 412,
-          'selection_end': 437,
-          'selection_start': 423},
-         1416763612.837928],
-        [loc('templates/ShopInfoCollectorApp/step5_chainstoreinfo.html'),
-         {'attrib-starts': [],
-          'first-line': 0,
-          'folded-linenos': [],
-          'sel-line': 5,
-          'sel-line-start': 103,
-          'selection_end': 115,
-          'selection_start': 115},
-         1416763694.385204],
-        [loc('templates/ShopInfoCollectorApp/recording_verification.html'),
-         {'attrib-starts': [],
-          'first-line': 0,
-          'folded-linenos': [],
-          'sel-line': 0,
-          'sel-line-start': 0,
-          'selection_end': 0,
-          'selection_start': 0},
-         1416763703.15476],
-        [loc('templates/ShopInfoCollectorApp/step3_macaddress.html'),
-         {'attrib-starts': [],
-          'first-line': 0,
-          'folded-linenos': [],
-          'sel-line': 0,
-          'sel-line-start': 0,
-          'selection_end': 224,
-          'selection_start': 0},
-         1416763713.517341],
-        [loc('templates/ShopInfoCollectorApp/recording_verification.html'),
-         {'attrib-starts': [],
-          'first-line': 0,
-          'folded-linenos': [],
-          'sel-line': 0,
-          'sel-line-start': 0,
-          'selection_end': 0,
-          'selection_start': 0},
-         1416763714.259616],
-        [loc('templates/ShopInfoCollectorApp/step5_chainstoreinfo.html'),
-         {'attrib-starts': [],
-          'first-line': 0,
-          'folded-linenos': [],
-          'sel-line': 5,
-          'sel-line-start': 103,
-          'selection_end': 115,
-          'selection_start': 115},
-         1416763715.885318],
-        [loc('templates/ShopInfoCollectorApp/recording_verification.html'),
-         {'attrib-starts': [],
-          'first-line': 0,
-          'folded-linenos': [],
-          'sel-line': 3,
-          'sel-line-start': 60,
-          'selection_end': 93,
-          'selection_start': 93},
-         1416763770.953612],
-        [loc('ShopInfoCollectorApp/urls.py'),
-         {'attrib-starts': [],
-          'first-line': 0,
-          'folded-linenos': [],
-          'sel-line': 8,
-          'sel-line-start': 420,
-          'selection_end': 507,
-          'selection_start': 507},
-         1416763812.59379],
+          'sel-line': 88,
+          'sel-line-start': 2988,
+          'selection_end': 3044,
+          'selection_start': 3044},
+         1416844515.905777],
         [loc('ShopInfoCollectorApp/views.py'),
-         {'attrib-starts': [('content_verification',
-                             40)],
-          'first-line': 29,
+         {'attrib-starts': [('final_verification',
+                             72)],
+          'first-line': 69,
           'folded-linenos': [],
-          'sel-line': 40,
-          'sel-line-start': 1263,
-          'selection_end': 1287,
-          'selection_start': 1267},
-         1416763883.98138]],
+          'sel-line': 73,
+          'sel-line-start': 3120,
+          'selection_end': 3120,
+          'selection_start': 3120},
+         1416844694.322613],
+        [loc('../../.virtualenvs/Django/local/lib/python2.7/site-packages/django/template/base.py'),
+         {'attrib-starts': [('Parser',
+                             244),
+                            ('Parser.invalid_block_tag',
+                             339)],
+          'first-line': 337,
+          'folded-linenos': [],
+          'sel-line': 342,
+          'sel-line-start': 11800,
+          'selection_end': 11800,
+          'selection_start': 11800},
+         1416844728.034775],
+        [loc('ShopInfoCollectorApp/views.py'),
+         {'attrib-starts': [('final_verification',
+                             72)],
+          'first-line': 69,
+          'folded-linenos': [],
+          'sel-line': 73,
+          'sel-line-start': 3120,
+          'selection_end': 3120,
+          'selection_start': 3120},
+         1416844730.977147],
+        [loc('../../.virtualenvs/Django/local/lib/python2.7/site-packages/django/template/base.py'),
+         {'attrib-starts': [('FilterExpression',
+                             534),
+                            ('FilterExpression.__init__',
+                             548)],
+          'first-line': 582,
+          'folded-linenos': [],
+          'sel-line': 587,
+          'sel-line-start': 20279,
+          'selection_end': 20279,
+          'selection_start': 20279},
+         1416844757.725978],
+        [loc('ShopInfoCollectorApp/views.py'),
+         {'attrib-starts': [('final_verification',
+                             72)],
+          'first-line': 69,
+          'folded-linenos': [],
+          'sel-line': 73,
+          'sel-line-start': 3120,
+          'selection_end': 3120,
+          'selection_start': 3120},
+         1416844762.071587],
+        [loc('../../.virtualenvs/Django/local/lib/python2.7/site-packages/django/template/base.py'),
+         {'attrib-starts': [('FilterExpression',
+                             534),
+                            ('FilterExpression.__init__',
+                             548)],
+          'first-line': 582,
+          'folded-linenos': [],
+          'sel-line': 587,
+          'sel-line-start': 20279,
+          'selection_end': 20279,
+          'selection_start': 20279},
+         1416844858.080249]],
         20),
-        'current-loc': loc('ShopInfoCollectorApp/urls.py'),
-        'editor-state-list': [(loc('ShopInfoCollectorApp/admin.py'),
-                               {'attrib-starts': [],
-                                'first-line': 8,
+        'current-loc': loc('ShopInfoCollectorApp/views.py'),
+        'editor-state-list': [(loc('../../.virtualenvs/Django/local/lib/python2.7/site-packages/django/template/base.py'),
+                               {'attrib-starts': [('FilterExpression',
+        534),
+        ('FilterExpression.__init__',
+         548)],
+                                'first-line': 582,
                                 'folded-linenos': [],
-                                'sel-line': 17,
-                                'sel-line-start': 590,
-                                'selection_end': 624,
-                                'selection_start': 610}),
+                                'sel-line': 587,
+                                'sel-line-start': 20279,
+                                'selection_end': 20279,
+                                'selection_start': 20279}),
                               (loc('ShopInfoCollectorApp/forms.py'),
-                               {'attrib-starts': [('ChainShopInfoForm',
-        22)],
-                                'first-line': 18,
-                                'folded-linenos': [],
-                                'sel-line': 22,
-                                'sel-line-start': 592,
-                                'selection_end': 615,
-                                'selection_start': 598}),
-                              (loc('manage.py'),
-                               {'attrib-starts': [],
+                               {'attrib-starts': [('MacAddressInfoForm',
+        12),
+        ('MacAddressInfoForm.Meta',
+         14)],
                                 'first-line': 0,
                                 'folded-linenos': [],
-                                'sel-line': 1,
-                                'sel-line-start': 22,
-                                'selection_end': 37,
-                                'selection_start': 37}),
-                              (loc('ShopInfoCollectorApp/models.py'),
-                               {'attrib-starts': [('ChainStoreInfo',
-        71)],
-                                'first-line': 63,
-                                'folded-linenos': [],
-                                'sel-line': 71,
-                                'sel-line-start': 2118,
-                                'selection_end': 2138,
-                                'selection_start': 2124}),
-                              (loc('templates/ShopInfoCollectorApp/step4_contactinfo.html'),
-                               {'attrib-starts': [],
-                                'first-line': 9,
-                                'folded-linenos': [],
-                                'sel-line': 13,
-                                'sel-line-start': 246,
+                                'sel-line': 15,
+                                'sel-line-start': 429,
                                 'selection_end': 459,
-                                'selection_start': 246}),
+                                'selection_start': 445}),
+                              (loc('templates/ShopInfoCollectorApp/laststep_recording_verification.html'),
+                               {'attrib-starts': [],
+                                'first-line': 3,
+                                'folded-linenos': [],
+                                'sel-line': 27,
+                                'sel-line-start': 665,
+                                'selection_end': 683,
+                                'selection_start': 683}),
+                              (loc('ShopInfoCollectorApp/models.py'),
+                               {'attrib-starts': [('ShopInfo',
+        84)],
+                                'first-line': 69,
+                                'folded-linenos': [],
+                                'sel-line': 88,
+                                'sel-line-start': 2988,
+                                'selection_end': 3044,
+                                'selection_start': 3044}),
+                              (loc('SalesNetworkManager/settings.py'),
+                               {'attrib-starts': [],
+                                'first-line': 41,
+                                'folded-linenos': [],
+                                'sel-line': 45,
+                                'sel-line-start': 1213,
+                                'selection_end': 1262,
+                                'selection_start': 1262}),
                               (loc('ShopInfoCollectorApp/urls.py'),
                                {'attrib-starts': [],
                                 'first-line': 0,
                                 'folded-linenos': [],
-                                'sel-line': 9,
-                                'sel-line-start': 508,
-                                'selection_end': 533,
-                                'selection_start': 519}),
+                                'sel-line': 8,
+                                'sel-line-start': 429,
+                                'selection_end': 509,
+                                'selection_start': 509}),
                               (loc('ShopInfoCollectorApp/views.py'),
-                               {'attrib-starts': [('content_verification',
-        40)],
-                                'first-line': 29,
+                               {'attrib-starts': [('final_verification',
+        72)],
+                                'first-line': 77,
                                 'folded-linenos': [],
-                                'sel-line': 40,
-                                'sel-line-start': 1263,
-                                'selection_end': 1287,
-                                'selection_start': 1267})],
-        'has-focus': True,
+                                'sel-line': 81,
+                                'sel-line-start': 3591,
+                                'selection_end': 3622,
+                                'selection_start': 3622})],
+        'has-focus': False,
         'locked': False},
-        [loc('ShopInfoCollectorApp/admin.py'),
+        [loc('../../.virtualenvs/Django/local/lib/python2.7/site-packages/django/template/base.py'),
          loc('ShopInfoCollectorApp/forms.py'),
-         loc('manage.py'),
+         loc('templates/ShopInfoCollectorApp/laststep_recording_verification.html'),
          loc('ShopInfoCollectorApp/models.py'),
-         loc('templates/ShopInfoCollectorApp/step4_contactinfo.html'),
+         loc('SalesNetworkManager/settings.py'),
          loc('ShopInfoCollectorApp/urls.py'),
          loc('ShopInfoCollectorApp/views.py')]),
-                               'open_files': [u'ShopInfoCollectorApp/admin.py',
-        u'manage.py',
-        u'ShopInfoCollectorApp/models.py',
-        u'templates/ShopInfoCollectorApp/step4_contactinfo.html',
+                               'open_files': [u'SalesNetworkManager/settings.py',
         u'ShopInfoCollectorApp/forms.py',
-        u'ShopInfoCollectorApp/views.py',
-        u'ShopInfoCollectorApp/urls.py']},
+        u'ShopInfoCollectorApp/urls.py',
+        u'templates/ShopInfoCollectorApp/laststep_recording_verification.html',
+        u'ShopInfoCollectorApp/models.py',
+        u'ShopInfoCollectorApp/views.py']},
         'saved_notebook_display': None,
         'split_percents': {0: 0.20641711229946524},
         'splits': 1,
@@ -456,13 +1713,13 @@ guimgr.overall-gui-state = {'windowing-policy': 'combined-window',
                          27,
                          1260,
                          710)}]}
-guimgr.recent-documents = [loc('ShopInfoCollectorApp/urls.py'),
-                           loc('ShopInfoCollectorApp/views.py'),
-                           loc('ShopInfoCollectorApp/forms.py'),
-                           loc('templates/ShopInfoCollectorApp/step4_contactinfo.html'),
+guimgr.recent-documents = [loc('ShopInfoCollectorApp/views.py'),
+                           loc('../../.virtualenvs/Django/local/lib/python2.7/site-packages/django/template/base.py'),
                            loc('ShopInfoCollectorApp/models.py'),
-                           loc('manage.py'),
-                           loc('ShopInfoCollectorApp/admin.py')]
+                           loc('templates/ShopInfoCollectorApp/laststep_recording_verification.html'),
+                           loc('ShopInfoCollectorApp/urls.py'),
+                           loc('ShopInfoCollectorApp/forms.py'),
+                           loc('SalesNetworkManager/settings.py')]
 proj.build-cmd = {None: ('default',
                          None)}
 proj.env-vars = {None: ('custom',
@@ -481,5 +1738,6 @@ proj.test-launch-config = {None: ('project',
                            loc('manage.py'): ('project',
         (u'',
          'launch-x6cSlqcCeURZoSnf'))}
-search.search-history = [u'Django_Config']
+search.search-history = [u'option ',
+                         u'Django_Config']
 testing.test-framework = {loc('manage.py'): ':internal djangotest'}

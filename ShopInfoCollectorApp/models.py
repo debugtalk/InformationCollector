@@ -86,7 +86,7 @@ class ShopInfo(models.Model):
     ShopName = models.CharField(max_length=20, unique=True, verbose_name=u'商家名称')
     MacAddressList = models.ManyToManyField(MacAddressInfo, verbose_name=u'Mac地址')
     ShopDistrict = models.ForeignKey(DistrictInfo, verbose_name=u'商家所在地区', related_name = "shops")
-    ShopDetailAddress = models.CharField(max_length = 100, verbose_name=u'商家详细地址')
+    ShopDetailAddress = models.CharField(max_length = 100, verbose_name=u'详细地址')
     ShopType = models.ForeignKey(ShopType, verbose_name=u'商家类型')
     ContactInfoList = models.ManyToManyField(ContactInfo, verbose_name=u'商家联系人信息')
     IsChainShop = models.BooleanField(default=False, verbose_name=u'是否连锁')
