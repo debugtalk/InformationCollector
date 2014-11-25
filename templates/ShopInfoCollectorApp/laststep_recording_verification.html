@@ -4,43 +4,43 @@
 <body>
   <table>
     <tr>
-      <th>商家名称: </th><th>{{tempSessionDict.ShopName}}</th>
+      <th>商家名称: </th><th>{{tempSessionDict.shop_name}}</th>
     </tr>
     <tr>
-      <th>商家详细地址: </th><th>{{tempSessionDict.ShopDetailAddress}}</th>
+      <th>商家详细地址: </th><th>{{tempSessionDict.shop_address}}</th>
     </tr>
     <tr>
-      <th>商家类型: </th><th>{{tempSessionDict.ShopType}}</th>
+      <th>商家类型: </th><th>{{tempSessionDict.shop_type}}</th>
     </tr>
   </table>
 
   <p>Mac地址: </p>
   <p>
-    {% for macaddress in tempSessionDict.MacAddressList %}
+    {% for macaddress in tempSessionDict.mac_address_list %}
       <li>{{ macaddress }}</li>
     {% endfor %}
   </p>
 
   <table>
     <p>商家联系人信息: </p>
-    {% for contactinfo in tempSessionDict.ContactInfoList %}
-      <tr><th>联系人姓名</th><th>{{ contactinfo.Name }}</th></tr>
-      <tr><th>联系人职务</th><th>{{ contactinfo.Duty }}</th></tr>
-      <tr><th>联系人电话</th><th>{{ contactinfo.Phone }}</th></tr>
-      <tr><th>电子邮箱</th><th>{{ contactinfo.Email }}</th></tr>
+    {% for contactinfo in tempSessionDict.contact_info_list %}
+      <tr><th>联系人姓名</th><th>{{ contactinfo.name }}</th></tr>
+      <tr><th>联系人职务</th><th>{{ contactinfo.duty }}</th></tr>
+      <tr><th>联系人电话</th><th>{{ contactinfo.phone }}</th></tr>
+      <tr><th>电子邮箱</th><th>{{ contactinfo.email }}</th></tr>
     {% endfor %}
     <tr>
-      <th>是否连锁: </th><th>{{tempSessionDict.IsChainShop}}</th>
+      <th>是否连锁: </th><th>{{tempSessionDict.is_chain_shop}}</th>
     </tr>
   </table>
     
-  {% if tempSessionDict.IsChainShop %}
+  {% if tempSessionDict.is_chain_shop %}
     <table>
       <p>连锁店信息: </p>
-      <tr><th>连锁店名称</th><th>{{ tempSessionDict.ChainStoreInfo.Name }}</th></tr>
-      <tr><th>连锁店地址</th><th>{{ tempSessionDict.ChainStoreInfo.Address }}</th></tr>
-      <tr><th>联系人姓名</th><th>{{ tempSessionDict.ChainStoreInfo.ContactName }}</th></tr>
-      <tr><th>联系人电话</th><th>{{ tempSessionDict.ChainStoreInfo.ContactPhone }}</th></tr>
+      <tr><th>连锁店名称</th><th>{{ tempSessionDict.chain_store_info.store_name }}</th></tr>
+      <tr><th>连锁店地址</th><th>{{ tempSessionDict.chain_store_info.store_adress }}</th></tr>
+      <tr><th>联系人姓名</th><th>{{ tempSessionDict.chain_store_info.contact_name }}</th></tr>
+      <tr><th>联系人电话</th><th>{{ tempSessionDict.chain_store_info.contact_phone }}</th></tr>
     </table>
   {% endif %}
 

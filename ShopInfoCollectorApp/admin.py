@@ -7,9 +7,9 @@ from ShopInfoCollectorApp.models import DistrictInfo, Province, City, County
 
 
 class ShopInfoAdmin(admin.ModelAdmin):
-    list_display = ('id', 'ShopName', 'ShopDistrict', 'ShopDetailAddress', 'ShopType')
-    list_filter = ['ShopName']
-    search_fields = ['ShopName',]
+    list_display = ('id', 'shop_name', 'shop_district', 'shop_address', 'shop_type')
+    list_filter = ['shop_name']
+    search_fields = ['shop_name',]
     list_per_page = 20
 
 admin.site.register(MacAddressInfo)

@@ -11,11 +11,11 @@ def record_basicinfo(request):
         form = BasicInfoForm(request.POST)
         if form.is_valid():
             cd = form.cleaned_data
-            shoptype = cd['ShopType'].ShopType
+            shoptype = cd['shop_type'].shop_type
             request.session['tempSession']= cd
-            request.session['tempSession']['ShopType'] = shoptype
-            request.session['tempSession']['MacAddressList'] = []
-            request.session['tempSession']['ContactInfoList'] = []
+            request.session['tempSession']['shop_type'] = shoptype
+            request.session['tempSession']['mac_address_list'] = []
+            request.session['tempSession']['contact_info_list'] = []
             request.session.modified = True
             return HttpResponseRedirect('/record/2-macaddress/')
     else:
@@ -28,9 +28,9 @@ def record_macaddress(request):
         form = MacAddressInfoForm(request.POST)
         if form.is_valid():
             cd = form.cleaned_data
-            macAddressList = request.session['tempSession'].get('MacAddressList', [])
-            macAddressList.append(cd['MacAddress'])
-            request.session['tempSession']['MacAddressList'] = macAddressList
+            macAddressList = request.session['tempSession'].get('mac_address_list', [])
+            macAddressList.append(cd['mac_address'])
+            request.session['tempSession']['mac_address_list'] = macAddressList
             request.session.modified = True
             if request.POST.has_key('add_another_mac'):
                 return HttpResponseRedirect('/record/2-macaddress/')
@@ -45,12 +45,12 @@ def record_contactinfo(request):
         form = ContactInfoForm(request.POST)
         if form.is_valid():
             cd = form.cleaned_data
-            request.session['tempSession']['ContactInfoList'].append(cd)
+            request.session['tempSession']['contact_info_list'].append(cd)
             request.session.modified = True
             if request.POST.has_key('add_another_contact'):
                 return HttpResponseRedirect('/record/3-contactinfo/')
             if request.POST.has_key('next_step'):
-                if request.session['tempSession']['IsChainShop']:
+                if request.session['tempSession']['is_chain_shop']:
                     return HttpResponseRedirect('/record/4-chainstoreinfo/')
                 else:
                     return HttpResponseRedirect('/record/done/')
@@ -63,12 +63,53 @@ def record_chainstoreinfo(request):
         form = ChainShopInfoForm(request.POST)
         if form.is_valid():
             cd = form.cleaned_data
-            request.session['tempSession']['ChainStoreInfo'] = cd
+            request.session['tempSession']['chain_store_info'] = cd
             request.session.modified = True
             return HttpResponseRedirect('/record/final-verification/')
     else:
         form = ChainShopInfoForm()
     return render(request, 'ShopInfoCollectorApp/step4_chainstoreinfo.html', {'form': form})
+
+from models import MacAddressInfo, ShopInfo, ChainStoreInfo
+from models import Province, City, County, DistrictInfo
+def save_sessiondict_to_database(sessiondict):
+    mac_address_list = sessiondict.get('mac_address_list', [])
+    contact_info_list = sessiondict.get('contact_info_list', [])
+    is_chain_shop = sessiondict.get('is_chain_shop', False)
+    c_s_i = sessiondict.get('chain_store_info', {})
+    shopname = sessiondict.get('shop_name', '')
+    shopaddress = sessiondict.get('shop_address', '')
+    shoptype = ShopType.objects.get(shop_type=sessiondict.get('shop_type', ''))
+
+    chainstoreinfo = ChainStoreInfo.objects.create(
+        store_name = c_s_i['store_name'],
+        store_adress = c_s_i['store_adress'],
+        contact_name = c_s_i['contact_name'],
+        contact_phone = c_s_i['contact_phone'],
+    )
+    pr = Province.objects.create(name=u'广东省')
+    ci = City.objects.create(province=pr, name=u'广州市')
+    co = County.objects.create(city=ci, name=u'天河区')
+    district=DistrictInfo.objects.create(province=pr, city=ci, county=co)
+    shopinfo = ShopInfo.objects.create(
+        shop_name=shopname,
+        shop_address=shopaddress,
+        shop_type=shoptype,
+        chain_store_info=chainstoreinfo,
+        shop_district=district
+    )
+    for mac in mac_address_list:
+        m = MacAddressInfo.objects.create(mac_address = mac)
+        shopinfo.mac_address_list.add(m)
+    for contact in contact_info_list:
+        c = ContactInfo.objects.create(
+            name = contact['name'],
+            duty = contact['duty'],
+            phone = contact['phone'],
+            email = contact['email'],
+        )
+        shopinfo.contact_info_list.add(c)
+    shopinfo.save()
 
 def final_verification(request):
     tempSessionDict = request.session.get('tempSession', {})
@@ -80,7 +121,8 @@ def final_verification(request):
             return HttpResponseRedirect('/record/1-basicinfo/')
         if request.POST.has_key('conform_and_save'):
             # todo: save to database
+            save_sessiondict_to_database(tempSessionDict)
             return HttpResponseRedirect('/record/finished/')
 
-def record_successfully(self):
+def record_successfully(request):
     return HttpResponse('Record Successfully')

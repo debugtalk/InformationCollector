@@ -5,25 +5,25 @@ from django.forms import ModelForm
 
 
 class BasicInfoForm(ModelForm):
-    '''RecordPage1: ShopName, ShopType, ShopDetailAddress, IsChainShop'''
+    '''RecordPage1: ShopName, ShopType, ShopDistrict, ShopDetailAddress, IsChainShop'''
     class Meta:
         model = ShopInfo
-        fields = ['ShopName', 'ShopType', 'ShopDetailAddress', 'IsChainShop']
+        fields = ['shop_name', 'shop_type', 'shop_address', 'is_chain_shop']
 
 class MacAddressInfoForm(ModelForm):
-    '''RecordPage3: MacAddressList(one or many)'''
+    '''RecordPage2: MacAddressList(one or many)'''
     class Meta:
         model = MacAddressInfo
         exclude = []
 
 class ContactInfoForm(ModelForm):
-    '''RecordPage4: ContactInfoList(one or many)'''
+    '''RecordPage3: ContactInfoList(one or many)'''
     class Meta:
         model = ContactInfo
         exclude = []
 
 class ChainShopInfoForm(ModelForm):
-    '''RecordPage5(if IsChainShop): ChainStoreInfo'''
+    '''RecordPage4(if IsChainShop): ChainStoreInfo'''
     class Meta:
         model = ChainStoreInfo
         exclude = []
