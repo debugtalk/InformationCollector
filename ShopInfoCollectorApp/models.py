@@ -13,31 +13,10 @@ class MacAddressInfo(models.Model):
         verbose_name = u'Mac地址'
         verbose_name_plural = u'Mac地址列表'
 
-# District Info
-class Province(models.Model):
-    name = models.CharField(max_length = 10)
-
-    def __unicode__(self):
-        return self.name
-
-class City(models.Model):
-    name = models.CharField(max_length = 10)
-    province = models.ForeignKey(Province, related_name = "cities")
-
-    def __unicode__(self):
-        return self.name
-
-class County(models.Model):
-    name = models.CharField(max_length = 10)
-    city = models.ForeignKey(City, related_name = "counties")
-
-    def __unicode__(self):
-        return self.name
-
 class DistrictInfo(models.Model):
-    province = models.ForeignKey(Province, verbose_name = u'省份')
-    city = models.ForeignKey(City, verbose_name = u'城市')
-    county = models.ForeignKey(County, verbose_name = u'区／县')
+    province = models.CharField(max_length = 10, verbose_name = u'省份')
+    city = models.CharField(max_length = 10, verbose_name = u'城市')
+    county = models.CharField(max_length = 10, verbose_name = u'区／县')
 
     def __unicode__(self):
         return u"%s, %s, %s" % (self.province, self.city, self.county)
@@ -47,7 +26,7 @@ class DistrictInfo(models.Model):
         verbose_name_plural = u'地区列表'
 
 class ShopType(models.Model):
-    shop_type = models.CharField(max_length = 10, verbose_name=u'商家类型')
+    shop_type = models.CharField(max_length = 10, unique=True, verbose_name=u'商家类型')
 
     def __unicode__(self):
         return self.shop_type
@@ -85,7 +64,7 @@ class ChainStoreInfo(models.Model):
 class ShopInfo(models.Model):
     shop_name = models.CharField(max_length=20, unique=True, verbose_name=u'商家名称')
     mac_address_list = models.ManyToManyField(MacAddressInfo, verbose_name=u'Mac地址')
-    shop_district = models.ForeignKey(DistrictInfo, verbose_name=u'商家所在地区', related_name = "shops")
+    shop_district = models.ForeignKey(DistrictInfo, verbose_name=u'商家所在地区')
     shop_address = models.CharField(max_length = 100, verbose_name=u'详细地址')
     shop_type = models.ForeignKey(ShopType, verbose_name=u'商家类型')
     contact_info_list = models.ManyToManyField(ContactInfo, verbose_name=u'商家联系人信息')

@@ -9,28 +9,40 @@
   $(function(){
     cascade_dropbox('main');
   })
+  function basicinfoForm_submit(){
+    setAreaValue();
+    basicinfoForm.submit();
+  }
+  function setAreaValue(){
+    $("#DistrictProvince").val($(".province option:selected").val());
+    $("#DistrictCity").val($(".city option:selected").val());
+    $("#DistrictCounty").val($(".country option:selected").val());
+  }
   </script>
 </head>
 
 <body>
-  <form action="" method="post">
-    <table>
+  <form action="" method="post" name="basicinfoForm">
+    <table id="main">
       <tr>
         <th>省份：</th>
-        <th><select class='province'><option value='province'>--请选择--</option></select></th>
+        <th><select class='province' name="province"><option value='province'>--请选择--</option></select></th>
       </tr>
       <tr>
         <th>城市：</th>
-        <th><select class="city"><option value='city'>--请选择--</option></select></th>
+        <th><select class="city" name="city"><option value='city'>--请选择--</option></select></th>
       </tr>
       <tr>
         <th>区县：</th>
-        <th><select class="country"><option value='country'>--请选择--</option></select></th>
+        <th><select class="country" name="country"><option value='country'>--请选择--</option></select></th>
       </tr>
     </table>
+    <input type="hidden" name="DistrictProvince" id="DistrictProvince">
+    <input type="hidden" name="DistrictCity" id="DistrictCity">
+    <input type="hidden" name="DistrictCounty" id="DistrictCounty">
     <table>
       {{ form.as_table }}
     </table>
-    <input type="submit" value="下一步">
+    <input type="button" onclick="basicinfoForm_submit();" value="下一步">
   </form>
 </body>

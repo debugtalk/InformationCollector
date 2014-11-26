@@ -2,7 +2,7 @@ function cascade_dropbox(eleId){
   var warp = $('#'+eleId);
   var data = null;
   $.ajax({
-    url: 'DistrictData.xml',
+    url: '/site_media/js/DistrictData.xml',
     type: 'post',
     dataType: 'xml',
     success:function(result){

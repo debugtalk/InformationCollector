@@ -5,6 +5,7 @@ from django.http import HttpResponseRedirect, HttpResponse
 # Create your views here.
 from forms import *
 from models import ContactInfo
+from models import DistrictInfo
 
 def record_basicinfo(request):
     if request.method == 'POST':
@@ -14,6 +15,11 @@ def record_basicinfo(request):
             shoptype = cd['shop_type'].shop_type
             request.session['tempSession']= cd
             request.session['tempSession']['shop_type'] = shoptype
+            request.session['tempSession']['shop_district_dict'] = {
+                'province':request.REQUEST['DistrictProvince'],
+                'city':request.REQUEST['DistrictCity'],
+                'county':request.REQUEST['DistrictCounty']
+            }
             request.session['tempSession']['mac_address_list'] = []
             request.session['tempSession']['contact_info_list'] = []
             request.session.modified = True
@@ -71,7 +77,7 @@ def record_chainstoreinfo(request):
     return render(request, 'ShopInfoCollectorApp/step4_chainstoreinfo.html', {'form': form})
 
 from models import MacAddressInfo, ShopInfo, ChainStoreInfo
-from models import Province, City, County, DistrictInfo
+
 def save_sessiondict_to_database(sessiondict):
     mac_address_list = sessiondict.get('mac_address_list', [])
     contact_info_list = sessiondict.get('contact_info_list', [])
@@ -87,10 +93,8 @@ def save_sessiondict_to_database(sessiondict):
         contact_name = c_s_i['contact_name'],
         contact_phone = c_s_i['contact_phone'],
     )
-    pr = Province.objects.create(name=u'广东省')
-    ci = City.objects.create(province=pr, name=u'广州市')
-    co = County.objects.create(city=ci, name=u'天河区')
-    district=DistrictInfo.objects.create(province=pr, city=ci, county=co)
+    shop_district_dict = sessiondict.get('shop_district_dict', {})
+    district=DistrictInfo.objects.create(**shop_district_dict)
     shopinfo = ShopInfo.objects.create(
         shop_name=shopname,
         shop_address=shopaddress,
