@@ -2,6 +2,7 @@
 from django.conf.urls import patterns, url
 
 urlpatterns = patterns('ShopInfoCollectorApp.views',
+    url(r'^$', 'record_basicinfo', name='record_basicinfo'),
     url(r'^1-basicinfo/$', 'record_basicinfo', name='record_basicinfo'),
     url(r'^2-macaddress/$', 'record_macaddress', name='record_macaddress'),
     url(r'^3-contactinfo/$', 'record_contactinfo', name='record_contactinfo'),

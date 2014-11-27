@@ -59,7 +59,7 @@ def record_contactinfo(request):
                 if request.session['tempSession']['is_chain_shop']:
                     return HttpResponseRedirect('/record/4-chainstoreinfo/')
                 else:
-                    return HttpResponseRedirect('/record/done/')
+                    return HttpResponseRedirect('/record/finished/')
     else:
         form = ContactInfoForm()
     return render(request, 'ShopInfoCollectorApp/step3_contactinfo.html', {'form': form})
@@ -82,19 +82,22 @@ def save_sessiondict_to_database(sessiondict):
     mac_address_list = sessiondict.get('mac_address_list', [])
     contact_info_list = sessiondict.get('contact_info_list', [])
     is_chain_shop = sessiondict.get('is_chain_shop', False)
-    c_s_i = sessiondict.get('chain_store_info', {})
     shopname = sessiondict.get('shop_name', '')
     shopaddress = sessiondict.get('shop_address', '')
     shoptype = ShopType.objects.get(shop_type=sessiondict.get('shop_type', ''))
 
-    chainstoreinfo = ChainStoreInfo.objects.create(
-        store_name = c_s_i['store_name'],
-        store_adress = c_s_i['store_adress'],
-        contact_name = c_s_i['contact_name'],
-        contact_phone = c_s_i['contact_phone'],
-    )
+    c_s_i = sessiondict.get('chain_store_info', {})
+    if ChainStoreInfo.objects.filter(**c_s_i):
+        chainstoreinfo = ChainStoreInfo.objects.get(**c_s_i)
+    else:
+        chainstoreinfo = ChainStoreInfo.objects.create(**c_s_i)
+
     shop_district_dict = sessiondict.get('shop_district_dict', {})
-    district=DistrictInfo.objects.create(**shop_district_dict)
+    if DistrictInfo.objects.filter(**shop_district_dict):
+        district = DistrictInfo.objects.get(**shop_district_dict)
+    else:
+        district=DistrictInfo.objects.create(**shop_district_dict)
+
     shopinfo = ShopInfo.objects.create(
         shop_name=shopname,
         shop_address=shopaddress,
@@ -102,9 +105,11 @@ def save_sessiondict_to_database(sessiondict):
         chain_store_info=chainstoreinfo,
         shop_district=district
     )
+
     for mac in mac_address_list:
         m = MacAddressInfo.objects.create(mac_address = mac)
         shopinfo.mac_address_list.add(m)
+
     for contact in contact_info_list:
         c = ContactInfo.objects.create(
             name = contact['name'],
@@ -124,9 +129,10 @@ def final_verification(request):
             request.session['tempSession'] = {}
             return HttpResponseRedirect('/record/1-basicinfo/')
         if request.POST.has_key('conform_and_save'):
-            # todo: save to database
+            # save to database
             save_sessiondict_to_database(tempSessionDict)
             return HttpResponseRedirect('/record/finished/')
 
 def record_successfully(request):
-    return HttpResponse('Record Successfully')
+    request.session['tempSession'] = {}
+    return HttpResponse('信息录入成功！')

@@ -3,9 +3,8 @@ from django import forms
 from models import *
 from django.forms import ModelForm
 
-
 class BasicInfoForm(ModelForm):
-    '''RecordPage1: ShopName, ShopType, ShopDistrict, ShopDetailAddress, IsChainShop'''
+    '''RecordPage1: ShopDistrict, ShopName, ShopType, ShopDetailAddress, IsChainShop'''
     class Meta:
         model = ShopInfo
         fields = ['shop_name', 'shop_type', 'shop_address', 'is_chain_shop']
@@ -29,11 +28,9 @@ class ChainShopInfoForm(ModelForm):
         exclude = []
 
 # 商家信息的录入分多个页面
-# Todo: merge step1 and step2
 '''
-RecordPage1: ShopDistrict
-RecordPage2: ShopName, ShopType, ShopDetailAddress, IsChainShop
-RecordPage3: MacAddressList(one or many)
-RecordPage4: ContactInfoList(one or many)
-RecordPage5(if IsChainShop): ChainStoreInfo
+RecordPage1: ShopDistrict, ShopName, ShopType, ShopDetailAddress, IsChainShop
+RecordPage2: MacAddressList(one or many)
+RecordPage3: ContactInfoList(one or many)
+RecordPage4(if IsChainShop): ChainStoreInfo
 '''
